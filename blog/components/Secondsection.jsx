@@ -33,6 +33,7 @@ function Posts() {
             className='rounded'
             width={500}
             height={350}
+            alt=''
           />
         </Link>
       </div>

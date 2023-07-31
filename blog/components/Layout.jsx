@@ -14,7 +14,7 @@ const Layout = ({ children }) => {
       {/* we need it everywhere on the website */}
       {/* so it's good to put it inside the layout tag */}
       <Head>
-        <title>Ken's Blog</title>
+        <title>Ken&apos;s Blog</title>
       </Head>
       {/* with the layout component, you declared children for it */}
       {/* so whatever you wrap the tag around becomes the child(ren) */}

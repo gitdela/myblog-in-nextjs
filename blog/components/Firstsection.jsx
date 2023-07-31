@@ -64,7 +64,12 @@ function slide() {
       {/* next.js exposes it's content to the browser by default */}
       <div className='image'>
         <Link href={'/'}>
-          <Image src={'/images/image_six.png'} width={600} height={600} />
+          <Image
+            src={'/images/image_six.png'}
+            width={600}
+            height={600}
+            alt=''
+          />
         </Link>
       </div>
       <div className='info flex flex-col justify-start gap-4'>

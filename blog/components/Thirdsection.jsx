@@ -29,7 +29,12 @@ function Posts() {
     <div className='grid'>
       <div className='image'>
         <Link href={'/'}>
-          <Image src={'/images/image_six.png'} width={400} height={400} />
+          <Image
+            src={'/images/image_six.png'}
+            width={400}
+            height={400}
+            alt=''
+          />
         </Link>
       </div>
       <div className='info flex flex-col justify-center py-4'>
@@ -40,9 +45,7 @@ function Posts() {
           <span className='text-sm text-gray-700'>- July 30, 2023</span>
         </div>
         <Link href={'/'}>
-          <h2 className='uppercase md:text-2xl font-bold'>
-            It only took 15 months. I thought it'd take 6.
-          </h2>
+          <h2 className='uppercase md:text-2xl font-bold'>This is a heading</h2>
         </Link>
         <p className='text-sm md:text-base'>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae at
