@@ -27,7 +27,7 @@ const Thirdsection = () => {
 function Posts() {
   return (
     <div className='grid'>
-      <div className='image'>
+      <div className='image flex justify-center'>
         <Link href={'/'}>
           <Image
             src={'/images/image_six.png'}
@@ -37,7 +37,7 @@ function Posts() {
           />
         </Link>
       </div>
-      <div className='info flex flex-col justify-center py-4'>
+      <div className='info flex flex-col justify-center items-center py-4'>
         <div className='flex justify-start items-center'>
           <Link href={'/'}>
             <span className='text-sm text-orange-500'>Career Change</span>
@@ -47,7 +47,7 @@ function Posts() {
         <Link href={'/'}>
           <h2 className='uppercase md:text-2xl font-bold'>This is a heading</h2>
         </Link>
-        <p className='text-sm md:text-base'>
+        <p className='text-sm text-center md:text-base'>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae at
           fugiat magnam cum repellat tempore? Doloribus cupiditate ducimus
           obcaecati laborum, neque nihil quod molestias tenetur asperiores sequi

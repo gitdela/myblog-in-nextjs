@@ -6,7 +6,7 @@ import Author from './_child/Author';
 const Secondsection = () => {
   return (
     <section className='bg-purple-200 px-4 md:px-0'>
-      <div className='container mx-auto md:max-w-screen-lg'>
+      <div className='mx-auto md:max-w-screen-lg'>
         <h1 className='text-2xl uppercase text-center font-bold md:text-4xl py-12'>
           Latest Posts
         </h1>

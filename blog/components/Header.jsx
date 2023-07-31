@@ -12,7 +12,7 @@ const Header = () => {
         <div>
           <input
             type='text'
-            className='input-text text-base text-black'
+            className='input-text text-base text-black focus:outline-none'
             placeholder='Search..'
           />
         </div>
